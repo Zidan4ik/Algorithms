@@ -10,6 +10,10 @@ public class Starter {
         tree.root.getLeft().setLeft(new Node('F'));
         tree.root.getRight().setRight(new Node('G'));
         tree.root.getRight().setLeft(new Node('H'));
-        tree.preOrder3(tree.root);
+        tree.root.getRight().getLeft().setLeft(new Node('Q'));
+
+        tree.postOrder(tree.root);
+
+        tree.iterativeTraversal(tree.root);
     }
 }

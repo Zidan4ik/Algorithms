@@ -21,7 +21,7 @@ public class ProcessArray {
         int value = scanner.nextInt();
         boolean isFound = false;
 
-        for (int i = 0; i < this.arrayInteger.length; i++) {
+        for (int i = 0; i < this.arrayInteger.length; i++) { // лінійний пошук
             if (this.arrayInteger[i] == value) {
                 System.out.println("значення: " + value + " під індексом: " + i);
                 isFound = true;
