@@ -1,27 +1,17 @@
 package task.task6;
 
 public class Student {
-    private String name;
     private String surname;
-    private int age;
     private int course;
+    private PersonalInformation information;
 
     public Student() {
     }
 
-    public Student(String name, String surname, int age, int course) {
-        this.name = name;
+    public Student(String surname, int course, PersonalInformation information) {
         this.surname = surname;
-        this.age = age;
         this.course = course;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+        this.information = information;
     }
 
     public String getSurname() {
@@ -32,14 +22,6 @@ public class Student {
         this.surname = surname;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public int getCourse() {
         return course;
     }
@@ -48,13 +30,20 @@ public class Student {
         this.course = course;
     }
 
+    public PersonalInformation getInformation() {
+        return information;
+    }
+
+    public void setInformation(PersonalInformation information) {
+        this.information = information;
+    }
+
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", age=" + age +
+        return "Student2{" +
+                "surname='" + surname + '\'' +
                 ", course=" + course +
+                ", information=" + information +
                 '}';
     }
 }
