@@ -17,22 +17,38 @@ public class ProcessArray {
             this.arrayInteger[i] = (int) (Math.random() * 10);
         }
         System.out.println(Arrays.toString(this.arrayInteger));
+        Arrays.sort(this.arrayInteger);
+        System.out.println(Arrays.toString(this.arrayInteger));
+
         System.out.println("Введіть значення цілого числа для знаходження індексу: ");
+
         int value = scanner.nextInt();
-        boolean isFound = false;
+        int index = binarySearch(this.arrayInteger, value);
 
-        for (int i = 0; i < this.arrayInteger.length; i++) {
-            if (this.arrayInteger[i] == value) {
-                System.out.println("значення: " + value + " під індексом: " + i);
-                isFound = true;
-                this.step++;
-                break;
-            }
-            this.step++;
+        if (index > 0) {
+            System.out.println("індекс: "+index);
+        } else {
+            System.out.println("значення: " + value + " немає в масиві");
         }
-
-        if (!isFound){System.out.println("значення: " + value + " немає в масиві");}
-        System.out.println("Кількість шагів: "+this.step);
+        System.out.println("Кількість шагів: " + this.step);
         scanner.close();
+    }
+
+    public int binarySearch(int[] array, int value) {
+        int left = 0;
+        int right = array.length - 1;
+
+        while (left <= right) {
+            int midValue = left + (right - left) / 2;
+            this.step++;
+            if (array[midValue] < value) {
+                left = midValue + 1;
+            } else if (array[midValue] > value) {
+                right = midValue - 1;
+            } else if (array[midValue] == value) {
+                return midValue;
+            }
+        }
+        return -1;
     }
 }
