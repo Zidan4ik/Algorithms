@@ -19,6 +19,7 @@ public class ProcessArray {
         System.out.println(Arrays.toString(this.arrayInteger));
         Arrays.sort(this.arrayInteger);
         System.out.println(Arrays.toString(this.arrayInteger));
+
         System.out.println("Введіть значення цілого числа для знаходження індексу: ");
 
         int value = scanner.nextInt();
