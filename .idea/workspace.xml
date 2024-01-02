@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="push another files and update some codes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="editable-svg" />
+        <option value="xml" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="div" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ZxKYVD7IOuzB1H9mTLJQBmLolU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Roma/IdeaProjects/Algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="task.task6" />
+      <recent name="task.task2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task7" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task4\block_diagrams" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task5\block_diagrams" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task5" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task6\block_diagrams" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Starter">
+    <configuration name="ConverterJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task6.ConverterJSON" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task7.test2.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.task7.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task1.Starter" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task7.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task.task7.Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task7.Starter" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Starter" />
+        <item itemvalue="Application.Starter" />
+        <item itemvalue="Application.ConverterJSON" />
+        <item itemvalue="Application.task.task7.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="" />
+      <created>1703358338002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703358338002</updated>
+      <workItem from="1703358339209" duration="3530000" />
+      <workItem from="1703444746465" duration="3213000" />
+      <workItem from="1703508696959" duration="8352000" />
+      <workItem from="1703546549251" duration="42000" />
+      <workItem from="1703589168939" duration="16693000" />
+      <workItem from="1703674577660" duration="11914000" />
+      <workItem from="1703746555536" duration="5951000" />
+      <workItem from="1703951101913" duration="7713000" />
+      <workItem from="1704109330910" duration="12334000" />
+      <workItem from="1704202916452" duration="21139000" />
+    </task>
+    <task id="LOCAL-00001" summary="add task 2">
+      <created>1703546583987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703546583987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update task 2">
+      <created>1703609012997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703609012997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add task 4">
+      <created>1703699658975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703699658975</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add task 5 (decrypt/encrypt) method">
+      <created>1703960620185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703960620185</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add task 6 (json converter)">
+      <created>1704115796124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704115796124</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update task 6 (json converter)">
+      <created>1704135592256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704135592256</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add task 7 (navigator 'algorithm Dijkstra')">
+      <created>1704221603117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704221603117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add block schemas for tasks">
+      <created>1704229110552</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704229110552</updated>
+    </task>
+    <task id="LOCAL-00009" summary="push another files and update some codes">
+      <created>1704229168677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704229168677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add task 2" />
+    <MESSAGE value="update task 2" />
+    <MESSAGE value="add task 4" />
+    <MESSAGE value="add task 5 (decrypt/encrypt) method" />
+    <MESSAGE value="add task 6 (json converter)" />
+    <MESSAGE value="update task 6 (json converter)" />
+    <MESSAGE value="add task 7 (navigator 'algorithm Dijkstra')" />
+    <MESSAGE value="add block schemas for tasks" />
+    <MESSAGE value="push another files and update some codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="push another files and update some codes" />
+  </component>
+</project>
