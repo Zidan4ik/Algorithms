@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="push another files and update some codes" />
+    <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="push another files and update some codes">
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/bubble_sort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="editable-svg" />
-        <option value="xml" />
         <option value="Class" />
+        <option value="xml" />
       </list>
     </option>
   </component>
@@ -26,6 +30,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ZxKYVD7IOuzB1H9mTLJQBmLolU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,13 +82,13 @@
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task6\block_diagrams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConverterJSON">
-    <configuration name="ConverterJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task6.ConverterJSON" />
+  <component name="RunManager" selected="Application.Bubble">
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.bubble_sort.Bubble" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task6.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.bubble_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task7.test2.Main" />
+    <configuration name="ConverterJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task.task6.ConverterJSON" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task7.test2.*" />
+          <option name="PATTERN" value="task.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.ConverterJSON" />
         <item itemvalue="Application.Starter" />
         <item itemvalue="Application.Starter" />
         <item itemvalue="Application.task.task7.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +176,8 @@
       <workItem from="1703951101913" duration="7713000" />
       <workItem from="1704109330910" duration="12334000" />
       <workItem from="1704202916452" duration="21139000" />
+      <workItem from="1704304584746" duration="32000" />
+      <workItem from="1704304642146" duration="3739000" />
     </task>
     <task id="LOCAL-00001" summary="add task 2">
       <created>1703546583987</created>
