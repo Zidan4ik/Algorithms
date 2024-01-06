@@ -4,17 +4,12 @@ public class PersonalInformation {
     private int age;
     private String phone;
     private String address;
-
-    public PersonalInformation() {
-    }
-
-
+    public PersonalInformation() {}
     public PersonalInformation(int age, String phone, String address) {
         this.age = age;
         this.phone = phone;
         this.address = address;
     }
-
     public int getAge() {
         return age;
     }
