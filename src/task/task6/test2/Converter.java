@@ -12,17 +12,18 @@ public class Converter {
         if (object == null) {
             return null;
         }
-        Class<?> c = object.getClass();
-        Field[] fields = c.getDeclaredFields();
+
+        Class<?> c = object.getClass(); // store current class of object
+        Field[] fields = c.getDeclaredFields(); // store declared fields from class of object
 //parts of reflection, which allows you to get information about classes and their fields during program execution.
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<>(); // create Map for saving keys and values
 
         StringBuilder sb = new StringBuilder();
         if (c.isArray()) {
             return arrayToJSON(object);
         }
         for (Field f : fields) {
-            f.setAccessible(true);
+            f.setAccessible(true); // set an accessible file with private
             map.put(f.getName(), f.get(object));
         }
 
@@ -38,7 +39,6 @@ public class Converter {
     public static String arrayToJSON(Object object) throws IllegalAccessException {
         String s = "";
         String s2 = "";
-        int countBrackets = 0;
         int length = Array.getLength(object);
         s2 += ("[");
         for (int i = 0; i < length; i++) {

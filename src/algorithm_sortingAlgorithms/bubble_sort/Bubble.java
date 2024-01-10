@@ -33,10 +33,11 @@ public class Bubble {
     public static void main(String[] args) {
         int[] data = {-2, 45, 0, 11, -9};
 
-        Bubble.bubbleSort(data);
-
-        System.out.println("Sorted Array in Ascending Order:");
-        System.out.println(Arrays.toString(data));
+        System.out.println("************************************");
+        System.out.println("Array, before sort: " + Arrays.toString(data));
+        bubbleSort(data);
+        System.out.println("Array, after sort: " + Arrays.toString(data));
+        System.out.println("************************************");
     }
 }
 

@@ -86,8 +86,8 @@ public class Main {
 
         Dijkstra dijkstra = new Dijkstra();
 
-        dijkstra.compute(odesa);
+        dijkstra.compute(lviv);
 
-        dijkstra.showPath(lviv);
+        dijkstra.showPath(kyiv);
     }
 }

@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="push another files and update some codes">
-      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/bubble_sort.drawio" afterDir="false" />
+    <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="Algorithms/Sorting algorithms (add shuttle sort) #9">
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/Shella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/block_diagrams/ShellaSort.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/task7/block_diagrams/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/block_diagrams/bubble.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/block_diagrams/BubbleSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/block_diagrams/bucket.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/block_diagrams/BucketSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/block_diagrams/choice.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/block_diagrams/ChoiceSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/block_diagrams/insert.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/block_diagrams/InsertSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/block_diagrams/merge.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/block_diagrams/MergeSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/block_diagrams/quick.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/block_diagrams/QuickSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task2/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task2/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task2/block_diagrams/iterative_traversal.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task2/block_diagrams/iterative_traversal.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task5/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task5/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task6/test2/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task6/test2/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="editable-svg" />
         <option value="Class" />
         <option value="xml" />
@@ -26,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="div" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roma/IdeaProjects/Algorithms&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roma/IdeaProjects/Collections&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,20 +91,20 @@
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\algorithm_sortingAlgorithms\insert_sort\block_diagrams" />
+      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\algorithm_sortingAlgorithms\bubble_sort\block_diagrams" />
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms" />
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task4\block_diagrams" />
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task5\block_diagrams" />
-      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task5" />
-      <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task6\block_diagrams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bubble">
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.bubble_sort.Bubble" />
+  <component name="RunManager" selected="Application.Quick">
+    <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.insert_sort.Insert" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.bubble_sort.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.insert_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task6.ConverterJSON" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.merge_sort.Merge" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task6.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.merge_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task1.Starter" />
+    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.quick_sort.Quick" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task1.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.quick_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task7.Main" />
+    <configuration name="Shella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.shella.Shella" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task7.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.shella.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task.task7.Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task.task7.Starter" />
+    <configuration name="Shuttle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.shuttle_sort.Shuttle" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.task7.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.shuttle_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bubble" />
-        <item itemvalue="Application.ConverterJSON" />
-        <item itemvalue="Application.Starter" />
-        <item itemvalue="Application.Starter" />
-        <item itemvalue="Application.task.task7.Main" />
+        <item itemvalue="Application.Quick" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Insert" />
+        <item itemvalue="Application.Shella" />
+        <item itemvalue="Application.Shuttle" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +193,14 @@
       <workItem from="1704109330910" duration="12334000" />
       <workItem from="1704202916452" duration="21139000" />
       <workItem from="1704304584746" duration="32000" />
-      <workItem from="1704304642146" duration="3739000" />
+      <workItem from="1704304642146" duration="7906000" />
+      <workItem from="1704351597582" duration="7582000" />
+      <workItem from="1704491237031" duration="6617000" />
+      <workItem from="1704535526407" duration="6343000" />
+      <workItem from="1704558537195" duration="12000" />
+      <workItem from="1704726492778" duration="22207000" />
+      <workItem from="1704811745784" duration="12209000" />
+      <workItem from="1704896430819" duration="11117000" />
     </task>
     <task id="LOCAL-00001" summary="add task 2">
       <created>1703546583987</created>
@@ -242,11 +265,99 @@
       <option name="project" value="LOCAL" />
       <updated>1704229168677</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="push 1 sort (bubble)">
+      <created>1704316640663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704316640663</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update 6 task (json converter)">
+      <created>1704543638420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704543638420</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Algorithms/Sorting algorithms (add bubble sort) #1">
+      <created>1704762149254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762149255</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Algorithms/Sorting algorithms (add bucket sort) #2">
+      <created>1704762171660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762171660</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Algorithms/Sorting algorithms (add choice sort) #3">
+      <created>1704762229388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762229388</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Algorithms/Sorting algorithms (add insert sort) #4">
+      <created>1704762247681</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762247681</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Algorithms/Sorting algorithms (add merge sort) #5">
+      <created>1704762263724</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762263724</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Algorithms/Sorting algorithms (add quick sort) #6">
+      <created>1704762275609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704762275609</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Algorithms/Sorting algorithms (add count sort) #7">
+      <created>1704824175222</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704824175224</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Algorithms/Sorting algorithms (add gnome sort) #8">
+      <created>1704901649952</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704901649952</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Algorithms/Sorting algorithms (add shuttle sort) #9">
+      <created>1704904388902</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704904388902</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add task 2" />
@@ -258,6 +369,28 @@
     <MESSAGE value="add task 7 (navigator 'algorithm Dijkstra')" />
     <MESSAGE value="add block schemas for tasks" />
     <MESSAGE value="push another files and update some codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="push another files and update some codes" />
+    <MESSAGE value="push 1 sort (bubble)" />
+    <MESSAGE value="update 6 task (json converter)" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add bubble sort) #1" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add bucket sort) #2" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add choice sort) #3" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add insert sort) #4" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add merge sort) #5" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add quick sort) #6" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add count sort) #7" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add gnome sort) #8" />
+    <MESSAGE value="Algorithms/Sorting algorithms (add shuttle sort) #9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithms/Sorting algorithms (add shuttle sort) #9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/Quick.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

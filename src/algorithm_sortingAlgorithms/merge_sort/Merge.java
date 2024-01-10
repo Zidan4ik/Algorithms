@@ -5,8 +5,11 @@ import java.util.Arrays;
 public class Merge {
     public static void main(String[] args) {
         int[] array = new int[]{1,8,-5,2,11,0,32,-1};
+        System.out.println("************************************");
+        System.out.println("Array, before sort: " + Arrays.toString(array));
         mergeSort(array);
-        System.out.println(Arrays.toString(array));
+        System.out.println("Array, after sort: " + Arrays.toString(array));
+        System.out.println("************************************");
     }
     public static void mergeSort(int array[]) {
         int arr = array.length; // saving current length for array

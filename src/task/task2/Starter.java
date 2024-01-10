@@ -14,6 +14,6 @@ public class Starter {
 
         tree.postOrder(tree.root);
 
-        tree.iterativeTraversal(tree.root);
+//        tree.iterativeTraversal(tree.root);
     }
 }

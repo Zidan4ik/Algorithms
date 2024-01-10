@@ -27,7 +27,7 @@ public class CaesarCipher {
         StringBuilder result = new StringBuilder();
         if (handle) {
             for (char ch : i.toCharArray()) {
-                if (Character.isLetter(ch)) { //checking if the current character is a letter using
+                if (Character.isLetter(ch)) { //перевірка, чи є поточний символ літерою за допомогою
                     char shiftedChar = (char) (((ch -'a'+ (shift) )%26)+'a');
                     result.append(shiftedChar);
                 } else {
@@ -39,8 +39,8 @@ public class CaesarCipher {
             for (char ch : i.toCharArray()) {
                 if (Character.isLetter(ch)) {
                     char shiftedChar = (char) (((ch - 'a' + (26-shift) ) % 26) + 'a');
-//the expression ch - 'a' specifies the numeric index of the letter in the internal representation of the alphabet.
-// + 'a' - recovers the required ASCII code to display the letter
+// Вираз ch - 'a' визначає числовий індекс літери у внутрішньому представленні алфавіту.
+// + 'a' - відновлює необхідний код ASCII для відображення літери
                     result.append(shiftedChar);
                 }
                 else {result.append(ch);}

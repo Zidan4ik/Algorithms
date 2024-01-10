@@ -6,6 +6,15 @@ public class Insert {
     public static void main(String[] args) {
         int [] arr = new int[]{5,2,1,8,0,-15,12,62,1};
 
+        System.out.println("************************************");
+        System.out.println("Array, before sort: " + Arrays.toString(arr));
+        insertSort(arr);
+        System.out.println("Array, after sort: " + Arrays.toString(arr));
+        System.out.println("************************************");
+        System.out.println(Arrays.toString(arr));
+
+    }
+    public static void insertSort(int[] arr){
         for (int i = 1; i < arr.length; i++) {
             int currentValue = arr[i];
             int index = i;
@@ -15,6 +24,5 @@ public class Insert {
             }
             arr[index] = currentValue;
         }
-        System.out.println(Arrays.toString(arr));
     }
 }
