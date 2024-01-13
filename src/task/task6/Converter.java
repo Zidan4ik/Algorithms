@@ -1,11 +1,10 @@
-package task.task6.test2;
-
-import task.task6.PersonalInformation;
-import task.task6.Student;
+package task.task6;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Converter {
     public static String toConvertJSON(Object object) throws IllegalAccessException {
@@ -23,13 +22,19 @@ public class Converter {
             return arrayToJSON(object);
         }
         for (Field f : fields) {
-            f.setAccessible(true); // set an accessible file with private
+            f.setAccessible(true); // access to private field
             map.put(f.getName(), f.get(object));
         }
 
         sb.append("{");
-        for (Map.Entry m : map.entrySet()) {
-            sb.append("\"" + m.getKey() + "\" : " + m.getValue() + ", ");
+        for (Map.Entry<String, Object> m : map.entrySet()) {
+            if (m.getValue() instanceof Integer) {
+                sb.append("\"" + m.getKey() + "\"" + " : " + m.getValue() + ", ");
+            } else if (m.getValue() instanceof String) {
+                sb.append("\"" + m.getKey() + "\"" + " : \"" + m.getValue() + "\", ");
+            } else {
+                sb.append("\"" + m.getKey() + "\"" + " : " + toArray(m.getValue()) + ", ");
+            }
         }
         String sbString = sb.toString();
 
@@ -58,32 +63,52 @@ public class Converter {
                 } else if (m.getValue() instanceof String) {
                     s += ("\"" + m.getKey() + "\"" + " : \"" + m.getValue() + "\", ");
                 } else {
-                    s += ("\"" + m.getKey() + "\"" + " : \"" + m.getValue() + "\", ");
+                    s += ("\"" + m.getKey() + "\"" + " : " + toArray(m.getValue()) + ", ");
                 }
             }
             s2 += s.substring(0, s.length() - 2);
-            s2 += ("},");
+            s2 += ("}, ");
             s = "";
         }
-        s2 = s2.substring(0, s2.length() - 1);
+        s2 = s2.substring(0, s2.length() - 2);
         s2 += ("]");
 
         return s2;
     }
 
+    private static String toArray(Object array) {
+        if (array != null) {
+            if (array.getClass().isArray()) {
+                return "\""+Arrays.toString((int[]) array)+"\"";
+            } else {
+                return "\""+array+"\"";
+            }
+        } else {
+            return null;
+        }
+    }
+
     public static void main(String[] args) throws IllegalAccessException {
-        Student roma = new Student("Pravnyk", 3, new PersonalInformation(20, "0666790166", "Sarny"));
+        Student roma = new Student("Pravnyk", 3, new PersonalInformation(20, "0666790166", "Sarny"), new int[]{1, 2, 3});
         Student sasha = new Student("Volodko", 3, new PersonalInformation(21, "0231555313", "Rivne"));
-        List<Student> students = new ArrayList<>();
 
-        students.add(roma);
 
-        Student[] students1 = new Student[]{roma, sasha};
-        String jsonRoma = toConvertJSON(students1);
+        String jsonRoma = toConvertJSON(roma);
 
-        System.out.println(toConvertJSON(roma));
-        System.out.println(toConvertJSON(sasha));
-        System.out.println(jsonRoma);
+        Student[] students = new Student[]{roma, sasha};
+        String jsonStudents = toConvertJSON(students);
+
+
+        System.out.println("\n\n\t\t\t***Working JSON CONVERTER***");
+        System.out.println("*****************************************************");
+        System.out.println("Object output: \n"+roma);
+        System.out.println("JSON output: \n"+jsonRoma);
+        System.out.println("*****************************************************\n");
+        System.out.println();
+        System.out.println("*****************************************************");
+        System.out.println("Array output: \n"+Arrays.toString(students));
+        System.out.println("JSON output: \n"+jsonStudents);
+        System.out.println("*****************************************************\n");
 
 
     }

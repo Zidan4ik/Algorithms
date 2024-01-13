@@ -1,9 +1,12 @@
 package task.task6;
 
+import java.util.Arrays;
+
 public class Student {
     private String surname;
     private int course;
     private PersonalInformation information;
+    private Object arr1;
 
     public Student() {
     }
@@ -14,36 +17,32 @@ public class Student {
         this.information = information;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
+    public Student(String surname, int course, PersonalInformation information, Object arr) {
         this.surname = surname;
-    }
-
-    public int getCourse() {
-        return course;
-    }
-
-    public void setCourse(int course) {
         this.course = course;
-    }
-
-    public PersonalInformation getInformation() {
-        return information;
-    }
-
-    public void setInformation(PersonalInformation information) {
         this.information = information;
+        this.arr1 = arr;
     }
 
+
+    private static String toArray(Object array) {
+        if (array != null) {
+            if (array.getClass().isArray()) {
+                return Arrays.toString((int[]) array);
+            } else {
+                return array.toString();
+            }
+        } else {
+            return null;
+        }
+    }
     @Override
     public String toString() {
-        return "Student2{" +
+        return "Student{" +
                 "surname='" + surname + '\'' +
                 ", course=" + course +
                 ", information=" + information +
+                ", array=" + toArray(arr1) +
                 '}';
     }
 }
