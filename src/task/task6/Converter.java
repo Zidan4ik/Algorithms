@@ -2,9 +2,7 @@ package task.task6;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Converter {
     public static String toConvertJSON(Object object) throws IllegalAccessException {
@@ -28,11 +26,14 @@ public class Converter {
 
         sb.append("{");
         for (Map.Entry<String, Object> m : map.entrySet()) {
-            if (m.getValue() instanceof Integer) {
+            if (m.getValue() instanceof Integer || m.getValue() instanceof Double) {
                 sb.append("\"" + m.getKey() + "\"" + " : " + m.getValue() + ", ");
             } else if (m.getValue() instanceof String) {
                 sb.append("\"" + m.getKey() + "\"" + " : \"" + m.getValue() + "\", ");
-            } else {
+            } else if(m.getValue() instanceof Boolean){
+                sb.append("\"" + m.getKey() + "\"" + " : " + m.getValue() + ", ");
+            }
+            else {
                 sb.append("\"" + m.getKey() + "\"" + " : " + toArray(m.getValue()) + ", ");
             }
         }
@@ -58,11 +59,14 @@ public class Converter {
             }
 
             for (Map.Entry<String, Object> m : map.entrySet()) {
-                if (m.getValue() instanceof Integer) {
+                if (m.getValue() instanceof Integer || m.getValue() instanceof Double) {
                     s += ("\"" + m.getKey() + "\"" + " : " + m.getValue() + ", ");
                 } else if (m.getValue() instanceof String) {
                     s += ("\"" + m.getKey() + "\"" + " : \"" + m.getValue() + "\", ");
-                } else {
+                } else if(m.getValue() instanceof Boolean){
+                    s +=("\"" + m.getKey() + "\"" + " : " + m.getValue() + ", ");
+                }
+                else {
                     s += ("\"" + m.getKey() + "\"" + " : " + toArray(m.getValue()) + ", ");
                 }
             }
@@ -86,30 +90,5 @@ public class Converter {
         } else {
             return null;
         }
-    }
-
-    public static void main(String[] args) throws IllegalAccessException {
-        Student roma = new Student("Pravnyk", 3, new PersonalInformation(20, "0666790166", "Sarny"), new int[]{1, 2, 3});
-        Student sasha = new Student("Volodko", 3, new PersonalInformation(21, "0231555313", "Rivne"));
-
-
-        String jsonRoma = toConvertJSON(roma);
-
-        Student[] students = new Student[]{roma, sasha};
-        String jsonStudents = toConvertJSON(students);
-
-
-        System.out.println("\n\n\t\t\t***Working JSON CONVERTER***");
-        System.out.println("*****************************************************");
-        System.out.println("Object output: \n"+roma);
-        System.out.println("JSON output: \n"+jsonRoma);
-        System.out.println("*****************************************************\n");
-        System.out.println();
-        System.out.println("*****************************************************");
-        System.out.println("Array output: \n"+Arrays.toString(students));
-        System.out.println("JSON output: \n"+jsonStudents);
-        System.out.println("*****************************************************\n");
-
-
     }
 }
