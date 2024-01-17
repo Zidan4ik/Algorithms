@@ -1,11 +1,9 @@
 package algorithm_sortingAlgorithms.sort_new.radix;
 
-import com.sun.jdi.ArrayReference;
-
 import java.util.*;
 
-class Radix {
-
+public class Radix {
+    private static int lvl;
 
     static int getMax(int arr[], int n) {
         int mx = arr[0];
@@ -19,7 +17,7 @@ class Radix {
     // the digit represented by exp.
     static void countSort(int arr[], int n, int exp) {
         int output[] = new int[n];
-        int count[] = new int[10];
+        int count[] = new int[10]; // range from 0 to 9
         Arrays.fill(count, 0); // set all values in array to 0
 
         // Store count of occurrences in count[]
@@ -27,24 +25,25 @@ class Radix {
             count[(arr[i] / exp) % 10]++;
         }
 
-        // Change count[i] so that count[i] now contains
+        // change count[i] so that count[i] now contains
         // actual position of this digit in output[]
+        // cumulative count
         for (int i = 1; i < 10; i++) {
             count[i] += count[i - 1];
         }
 
-        // Build the output array
+        // build the output array
         for (int i = n - 1; i >= 0; i--) {
             output[count[(arr[i] / exp) % 10] - 1] = arr[i];
             count[(arr[i] / exp) % 10]--;
         }
-
-        // Copy the output array to arr[], so that arr[] now
+        // copy the output array to arr[], so that arr[] now
         // contains sorted numbers according to current
         // digit
         for (int i = 0; i < n; i++) {
             arr[i] = output[i];
         }
+        System.out.println("lvl "+(++lvl) +": "+Arrays.toString(arr));
     }
 
 
