@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.quick_sort;
+package algorithm_sortingAlgorithms.sort_old.quick_sort;
 
 import java.util.Arrays;
 

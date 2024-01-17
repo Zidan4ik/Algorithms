@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.shuttle_sort;
+package algorithm_sortingAlgorithms.sort_old.shuttle_sort;
 
 import java.util.Arrays;
 

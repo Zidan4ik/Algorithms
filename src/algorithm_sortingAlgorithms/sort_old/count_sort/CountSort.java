@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.count_sort;
+package algorithm_sortingAlgorithms.sort_old.count_sort;
 // Counting sort in Java programming
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.insert_sort;
+package algorithm_sortingAlgorithms.sort_old.insert_sort;
 
 import java.util.Arrays;
 

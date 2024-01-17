@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.gnome_sort;
+package algorithm_sortingAlgorithms.sort_old.gnome_sort;
 
 import java.util.Arrays;
 

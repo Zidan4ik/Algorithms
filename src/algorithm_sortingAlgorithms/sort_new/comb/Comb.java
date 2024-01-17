@@ -18,7 +18,7 @@ public class Comb {
             gap = updatedGap(gap); // find updated gap
             swapped = 0; // for checking on swapped between elements
 
-            for (int i = 0; i < n - gap; i++) {
+                for (int i = 0; i < n - gap; i++) {
                 if (a[i] > a[i + gap]) {
                     int temp = a[i];
                     a[i] = a[i + gap];

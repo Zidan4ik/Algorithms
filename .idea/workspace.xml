@@ -5,24 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1415ac40-d8df-420c-aa2c-eb5de601b1e2" name="Changes" comment="Algorithms/Sorting algorithms (add shuttle sort) #9">
-      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/Shella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/block_diagrams/ShellaSort.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/task7/block_diagrams/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/cocktail/block_diagrams/cocktailSort.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/comb/block_diagrams/combSort.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/heap/block_diagrams/heapSort.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/pancake/block_diagrams/pancakeSort.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/radix/block_diagrams/radixSort.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/block_diagrams/bubble.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/block_diagrams/BubbleSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/block_diagrams/bucket.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/block_diagrams/BucketSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/block_diagrams/choice.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/block_diagrams/ChoiceSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/block_diagrams/insert.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/block_diagrams/InsertSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/block_diagrams/merge.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/block_diagrams/MergeSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/block_diagrams/quick.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/block_diagrams/QuickSort.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task2/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task2/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task2/block_diagrams/iterative_traversal.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task2/block_diagrams/iterative_traversal.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task5/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task5/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task6/test2/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task6/test2/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/bubble_sort/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bubble_sort/block_diagrams/BubbleSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/bubble_sort/block_diagrams/BubbleSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/bucket_sort/Bucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/bucket_sort/block_diagrams/BucketSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/bucket_sort/block_diagrams/BucketSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/Choice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/choice_sort/Choice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/choice_sort/block_diagrams/ChoiceSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/choice_sort/block_diagrams/ChoiceSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/count_sort/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/count_sort/CountSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/count_sort/block_diagrams/CountSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/count_sort/block_diagrams/CountSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/gnome_sort/Gnome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/gnome_sort/Gnome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/gnome_sort/block_diagrams/GnomeSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/gnome_sort/block_diagrams/GnomeSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/insert_sort/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/insert_sort/block_diagrams/InsertSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/insert_sort/block_diagrams/InsertSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/merge_sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/merge_sort/block_diagrams/MergeSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/merge_sort/block_diagrams/MergeSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/quick_sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/block_diagrams/QuickSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/quick_sort/block_diagrams/QuickSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/Shella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/shella_sort/Shella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shella/block_diagrams/ShellaSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/shella_sort/block_diagrams/ShellaSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shuttle_sort/Shuttle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/shuttle_sort/Shuttle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/shuttle_sort/block_diagrams/ShuttleSort.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/shuttle_sort/block_diagrams/ShuttleSort.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/comb/Comb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/comb/Comb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/pancake/Pancake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_new/pancake/Pancake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +43,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="editable-svg" />
         <option value="Class" />
         <option value="xml" />
+        <option value="editable-svg" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="div3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,13 +108,13 @@
       <recent name="C:\Users\Roma\IdeaProjects\Algorithms\src\task\task5\block_diagrams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quick">
+  <component name="RunManager" selected="Application.Starter">
     <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.insert_sort.Insert" />
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.sort_old.insert_sort.Insert" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.insert_sort.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.sort_old.insert_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +123,11 @@
       </method>
     </configuration>
     <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.merge_sort.Merge" />
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.sort_old.merge_sort.Merge" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.merge_sort.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.sort_old.merge_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +136,11 @@
       </method>
     </configuration>
     <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.quick_sort.Quick" />
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.sort_old.quick_sort.Quick" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.quick_sort.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.sort_old.quick_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +149,11 @@
       </method>
     </configuration>
     <configuration name="Shella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.shella.Shella" />
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.sort_old.shella_sort.Shella" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.shella.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.sort_old.shella_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shuttle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.shuttle_sort.Shuttle" />
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm_sortingAlgorithms.sort_new.cocktail.Starter" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm_sortingAlgorithms.shuttle_sort.*" />
+          <option name="PATTERN" value="algorithm_sortingAlgorithms.sort_new.cocktail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Starter" />
         <item itemvalue="Application.Quick" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.Insert" />
         <item itemvalue="Application.Shella" />
-        <item itemvalue="Application.Shuttle" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +211,7 @@
       <workItem from="1704726492778" duration="22207000" />
       <workItem from="1704811745784" duration="12209000" />
       <workItem from="1704896430819" duration="11117000" />
+      <workItem from="1705526598057" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="add task 2">
       <created>1703546583987</created>
@@ -386,7 +397,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm_sortingAlgorithms/quick_sort/Quick.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithm_sortingAlgorithms/sort_old/quick_sort/Quick.java</url>
           <line>12</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>

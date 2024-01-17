@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.shella;
+package algorithm_sortingAlgorithms.sort_old.shella_sort;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.choice_sort;
+package algorithm_sortingAlgorithms.sort_old.choice_sort;
 
 import java.util.Arrays;
 

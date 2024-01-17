@@ -1,4 +1,4 @@
-package algorithm_sortingAlgorithms.bucket_sort;
+package algorithm_sortingAlgorithms.sort_old.bucket_sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
